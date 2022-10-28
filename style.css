@@ -40,7 +40,8 @@ a {
 }
 
 img {
-    width: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .content-a {
@@ -61,7 +62,7 @@ img {
 
 .main-title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     color: #F9FAF8;
     margin: 0;
 }
@@ -81,5 +82,49 @@ img {
     width: 150px;
     height: 40px;
 }
+
+.right {
+    height: auto;
+    width: 400px;
+}
+
+.content-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inf-title {
+    font-size: 36px;
+    font-weight: 800;
+    padding: 30px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 900px;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 140px;
+    text-align: center;
+}
+
+.square {
+    border:3px solid #3882f6;
+    border-radius: 8px;
+    width: 130px;
+    height: 130px;
+}
+
 
 
