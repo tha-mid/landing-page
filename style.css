@@ -93,6 +93,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
 }
 
 .inf-title {
@@ -126,5 +127,28 @@ img {
     height: 130px;
 }
 
+.content-c {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    align-items: center;
+    padding: 50px;
+}
 
+.quotes{
+    max-width: 800px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    text-align: left;
+    margin: 0;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    text-align: end;
+}
 
